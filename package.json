@@ -1,0 +1,39 @@
+{
+  "name": "name",
+  "description": "name front end source code",
+  "version": "1.0.0",
+  "repository": "https://www.pixel2html.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm install",
+    "code": "gulp",
+    "build": "gulp build --prod",
+    "release": "gulp release --prod",
+    "lint:js": "eslint 'src/**/*.js'",
+    "fix:js": "eslint 'src/**/*.js' --fix",
+    "lint:scss": "stylelint 'src/**/*.scss'",
+    "lint": "npm run lint:js; npm run lint:scss",
+    "debug": "gulp scripts --debug"
+  },
+  "dependencies": {
+    "@pixel2html/pipes": "^2.2.5",
+    "@pixel2html/scripts-frontend": "^0.6.3",
+    "del": "^5.1.0",
+    "fs-path": "0.0.24",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.0.1",
+    "yargs": "^15.0.2"
+  },
+  "devDependencies": {
+    "@pixel2html/stylelint-config": "^1.5.5",
+    "browser-sync": "^2.26.7",
+    "react-dev-utils": "^10.0.0",
+    "stylelint": "^12.0.1"
+  },
+  "stylelint": {
+    "extends": "@pixel2html/stylelint-config"
+  },
+  "eslintConfig": {
+    "extends": "@pixel2html/eslint-config"
+  }
+}
