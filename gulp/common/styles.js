@@ -1,6 +1,6 @@
 const gulp = require('gulp')
 const config = require('../config')
-const styles = require('penny-pipes').styles;
+const styles = require('@juandinella/penny-pipes').styles;
 
 gulp.task('main:styles', () =>
   gulp.src(config.project.cssFiles)

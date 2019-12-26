@@ -1,6 +1,6 @@
 const gulp = require('gulp')
 const config = require('../config')
-const purify = require('penny-pipes').purify;
+const purify = require('@juandinella/penny-pipes').purify;
 
 gulp.task('purify', () =>
   gulp.src(config.directories.dist.styles + '*.css')

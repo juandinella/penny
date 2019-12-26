@@ -1,5 +1,5 @@
 const gulp = require('gulp')
-const minifyStyles = require('penny-pipes').minifyStyles;
+const minifyStyles = require('@juandinella/penny-pipes').minifyStyles;
 const config = require('../config')
 
 gulp.task('minifyStyles', () =>

@@ -2,7 +2,7 @@ const gulp = require('gulp')
 const config = require('../config')
 const production = config.production
 const fs = require('fs')
-const pug = require('penny-pipes').pug;
+const pug = require('@juandinella/penny-pipes').pug;
 
 gulp.task('markup', () =>
   gulp.src(config.directories.src.markup + '/*.pug')

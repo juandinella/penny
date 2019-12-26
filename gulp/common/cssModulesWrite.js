@@ -1,7 +1,7 @@
 const gulp = require('gulp')
 const config = require('../config')
 const fs = require('fs-path')
-const getJSON = require('penny-pipes').getJSON;
+const getJSON = require('@juandinella/penny-pipes').getJSON;
 
 gulp.task('writeModules', done => {
   const json = getJSON()
