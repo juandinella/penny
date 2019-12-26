@@ -1,0 +1,104 @@
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+}
+
+// Flex-Wrap
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+// Justify Content
+.justify-center {
+  justify-content: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+// Align Items
+.align-baseline {
+  align-items: baseline;
+}
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-stretch {
+  align-items: stretch;
+}
+
+// Flex Direction
+.flex-column {
+  flex-direction: column;
+}
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+@each $name, $breakpoint in $breakpoints {
+  @media (min-width: $breakpoint) {
+    .flex-#{$name} {
+      display: flex;
+    }
+
+    .flex-column-#{$name} {
+      flex-direction: column;
+    }
+
+    .flex-column-reverse-#{$name} {
+      flex-direction: column-reverse;
+    }
+
+    .flex-row-#{$name} {
+      flex-direction: row;
+    }
+
+    .flex-row-reverse-#{$name} {
+      flex-direction: row-reverse;
+    }
+
+    .align-center-#{$name} {
+      align-items: center;
+    }
+
+    .align-start-#{$name} {
+      align-items: flex-start;
+    }
+  }
+}

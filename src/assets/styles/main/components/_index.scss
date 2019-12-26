@@ -1,0 +1,42 @@
+.dn {
+  display: none;
+}
+.di {
+  display: inline;
+}
+.db {
+  display: block;
+}
+.dib {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+.dt {
+  display: table;
+}
+
+@each $name, $breakpoint in $breakpoints {
+  @media (min-width: $breakpoint) {
+    .dn-#{$name} {
+      display: none;
+    }
+
+    .db-#{$name} {
+      display: block;
+    }
+
+    .di-#{$name} {
+      display: inline;
+    }
+
+    .din-#{$name} {
+      display: inline-block;
+    }
+
+    .flex-#{$name} {
+      display: flex;
+    }
+  }
+}

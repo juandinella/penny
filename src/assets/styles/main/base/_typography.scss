@@ -1,0 +1,42 @@
+html {
+  min-height: 100%;
+  position: relative;
+  font-family: $system-fonts;
+  color: $black;
+
+  &.wf-active {
+    font-family: $font;
+  }
+}
+
+body {
+  font: inherit;
+  line-height: inherit;
+  color: $black;
+}
+
+input,
+textarea {
+  font-family: inherit;
+}
+
+::-webkit-input-placeholder {
+  color: #242424;
+  opacity: 0.5;
+  font-size: rem(16);
+}
+::-moz-placeholder {
+  color: #242424;
+  opacity: 0.5;
+  font-size: rem(16);
+}
+:-ms-input-placeholder {
+  color: #242424;
+  opacity: 0.5;
+  font-size: rem(16);
+}
+:-moz-placeholder {
+  color: #242424;
+  opacity: 0.5;
+  font-size: rem(16);
+}
