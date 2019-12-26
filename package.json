@@ -2,7 +2,7 @@
   "name": "name",
   "description": "name front end source code",
   "version": "1.5.0",
-  "repository": "https://www.pixel2html.com",
+  "repository": "https://www.juandinella.com",
   "license": "MIT",
   "scripts": {
     "start": "npm install",
@@ -16,7 +16,7 @@
     "debug": "gulp scripts --debug"
   },
   "dependencies": {
-    "@juandinella/penny-pipes": "^1.5.0",
+    "@juandinella/penny-pipes": "^1.5.1",
     "@juandinella/penny-scripts": "^1.0.0",
     "del": "^5.1.0",
     "fs-path": "0.0.24",
@@ -25,15 +25,15 @@
     "yargs": "^15.0.2"
   },
   "devDependencies": {
-    "@juandinella/stylelint-config": "^1.5.5",
+    "@pixel2html/stylelint-config": "^1.5.5",
     "browser-sync": "^2.26.7",
     "react-dev-utils": "^10.0.0",
     "stylelint": "^12.0.1"
   },
   "stylelint": {
-    "extends": "@juandinella/stylelint-config"
+    "extends": "@pixel2html/stylelint-config"
   },
   "eslintConfig": {
-    "extends": "@juandinella/eslint-config"
+    "extends": "@pixel2html/eslint-config"
   }
 }
