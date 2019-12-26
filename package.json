@@ -16,8 +16,8 @@
     "debug": "gulp scripts --debug"
   },
   "dependencies": {
-    "@juandinella/penny-pipes": "^1.5.5",
-    "@juandinella/penny-scripts": "^1.1.4",
+    "@juandinella/penny-pipes": "^1.5.6",
+    "@juandinella/penny-scripts": "^1.1.5",
     "del": "^5.1.0",
     "fs-path": "0.0.24",
     "gulp": "^4.0.2",
