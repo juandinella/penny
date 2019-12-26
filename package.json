@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@juandinella/penny-pipes": "^1.5.7",
-    "@juandinella/penny-scripts": "^1.1.7",
+    "@juandinella/penny-scripts": "^1.1.8",
     "del": "^5.1.0",
     "fs-path": "0.0.24",
     "gulp": "^4.0.2",
