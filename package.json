@@ -16,7 +16,7 @@
     "debug": "gulp scripts --debug"
   },
   "dependencies": {
-    "@pixel2html/pipes": "^2.2.5",
+    "penny-pipes": "^2.2.5",
     "@pixel2html/scripts-frontend": "^0.6.3",
     "del": "^5.1.0",
     "fs-path": "0.0.24",
