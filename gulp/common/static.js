@@ -4,8 +4,7 @@ const del = require('del')
 
 gulp.task('clean', () =>
   del([
-    config.directories.dist.base,
-    config.directories.src.cssModules
+    config.directories.dist.base
   ])
 )
 

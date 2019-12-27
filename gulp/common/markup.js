@@ -13,11 +13,6 @@ gulp.task('markup', () =>
           icon: name => fs.readFileSync(`./src/assets/icons/${name}.svg`),
           production
         }
-      },
-      cssModules: `./${config.directories.src.cssModules}`,
-      imgAutoSize: {
-        root: `./${config.directories.dist.base}`,
-        processEmptySize: true
       }
     })())
     .on('error', config.onError)
