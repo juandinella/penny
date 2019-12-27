@@ -19,6 +19,7 @@
     "@juandinella/penny-pipes": "^1.5.7",
     "@juandinella/penny-scripts": "^1.1.9",
     "del": "^5.1.0",
+    "fs-path": "0.0.24",
     "gulp": "^4.0.2",
     "gulp-zip": "^5.0.1",
     "yargs": "^15.0.2"
