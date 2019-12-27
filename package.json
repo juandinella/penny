@@ -16,15 +16,15 @@
     "debug": "gulp scripts --debug"
   },
   "dependencies": {
-    "@juandinella/penny-pipes": "^1.5.8",
-    "@juandinella/penny-scripts": "^1.2.0",
+    "@juandinella/penny-pipes": "*",
+    "@juandinella/penny-scripts": "*",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-zip": "^5.0.1",
     "yargs": "^15.0.2"
   },
   "devDependencies": {
-    "@juandinella/stylelint-config": "^1.0.0",
+    "@juandinella/stylelint-config": "*",
     "browser-sync": "^2.26.7",
     "react-dev-utils": "^10.0.0",
     "stylelint": "^12.0.1"
