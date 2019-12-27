@@ -51,6 +51,6 @@ module.exports = {
   debug,
   mode,
   tunnel,
-  // Stuff for PurifyCss
-  // purify: ['./dist/**/*.js', './dist/**/*.html']
+  // Stuff for OurgeCss
+  purge: ['./dist/**/*.js', './dist/**/*.html']
 }

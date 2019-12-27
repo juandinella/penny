@@ -12,7 +12,7 @@ const development = [
 ]
 const production = [
   'minifyStyles',
-  // 'purify',
+  'purge',
   'styles-production', 'zip'
 ]
 
@@ -23,7 +23,7 @@ prod
 
 const prodTasks = [
   'minifyStyles',
-  // 'purify',
+  'purge',
   'zip',
 ]
 
