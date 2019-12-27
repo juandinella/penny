@@ -11,7 +11,8 @@ const development = [
   'serve', 'watch'
 ]
 const production = [
-  'minifyStyles', 'purify',
+  'minifyStyles',
+  // 'purify',
   'styles-production', 'zip'
 ]
 
@@ -22,7 +23,7 @@ prod
 
 const prodTasks = [
   'minifyStyles',
-  'purify',
+  // 'purify',
   'zip',
 ]
 

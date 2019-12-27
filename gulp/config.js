@@ -52,5 +52,5 @@ module.exports = {
   mode,
   tunnel,
   // Stuff for PurifyCss
-  purify: ['./dist/**/*.js', './dist/**/*.html']
+  // purify: ['./dist/**/*.js', './dist/**/*.html']
 }
