@@ -24,7 +24,6 @@ gulp.task('browser-sync', done => {
         open: false,
         logConnections: true,
         tunnel: config.tunnel,
-        logPrefix: 'Pixel2Html',
         files: ['**/*.css']
       })
       openBrowser(urls.localUrlForBrowser)

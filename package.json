@@ -1,7 +1,7 @@
 {
   "name": "name",
   "description": "name front end source code",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "repository": "https://www.juandinella.com",
   "license": "MIT",
   "scripts": {
