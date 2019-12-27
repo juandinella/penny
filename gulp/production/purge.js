@@ -1,6 +1,6 @@
 const gulp = require("gulp");
 const config = require("../config");
-const purgecss = require("@juandinella/penny-pipes").purge;
+const purgecss = require("gulp-purgecss");
 
 gulp.task("purge", () => {
   return gulp
