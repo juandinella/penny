@@ -1,7 +1,7 @@
-import test from './test'
+import colors from './colors'
 
 const general = () => {
-  test()
+  colors()
 }
 
 export default general
