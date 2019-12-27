@@ -22,4 +22,4 @@ gulp.task('vendor:styles:prod', () =>
     .pipe(gulp.dest(config.directories.dist.styles))
 )
 
-gulp.task('styles:prod', gulp.series('main:styles:prod', 'vendor:styles:prod', 'writeModules'))
+gulp.task('styles:prod', gulp.series('main:styles:prod', 'vendor:styles:prod'))
