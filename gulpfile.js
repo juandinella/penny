@@ -3,7 +3,6 @@ const gulp = require('gulp')
 const prod = config.production
 
 const common = [
-  'cssModulesWrite',
   'fonts', 'markup',
   'scripts', 'static',
   'styles'

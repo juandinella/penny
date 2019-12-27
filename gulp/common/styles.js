@@ -24,4 +24,4 @@ gulp.task('vendor:styles', () =>
     .pipe(gulp.dest(config.directories.dist.styles))
 )
 
-gulp.task('styles', gulp.series('main:styles', 'vendor:styles', 'writeModules'))
+gulp.task('styles', gulp.series('main:styles', 'vendor:styles'))
