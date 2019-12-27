@@ -50,7 +50,5 @@ module.exports = {
   production,
   debug,
   mode,
-  tunnel,
-  // Stuff for OurgeCss
-  purge: ['./dist/**/*.js', './dist/**/*.html']
+  tunnel
 }
