@@ -1,4 +1,4 @@
-# name
+# Penny Boilerplate
 
 ## Installing dependencies & running up
 
