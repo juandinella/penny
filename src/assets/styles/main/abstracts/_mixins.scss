@@ -4,9 +4,7 @@
     @media (min-width: map-get($breakpoints, $breakpoint)) {
       @content;
     }
-  }
-
-  @else {
+  } @else {
     @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
     + "Available breakpoints are: #{map-keys($breakpoints)}.";
   }
@@ -40,7 +38,7 @@
           flex-basis: #{$i / $columns * 100%};
         }
       }
-      .col-#{$key}-offset-#{$i}{
+      .col-#{$key}-offset-#{$i} {
         @include breakpoint($key) {
           margin-left: get-col-percent($i);
         }
@@ -50,9 +48,8 @@
 }
 
 // Some fonts need to smooooooth
-@mixin font-smooth{
+@mixin font-smooth {
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
